@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navMain {
+    background-color: rgb(54, 54, 159);
+}
+
+.navMain ul li {
+    list-style: none;
+}
