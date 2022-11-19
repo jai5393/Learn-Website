@@ -4,6 +4,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     color:white;
+    
 }
 
 .navMain {
@@ -29,3 +30,49 @@
     background-color: bisque;
     color:black
 }
+
+
+.sub-Menu-1 ul {
+    display: none;
+    /* list-style: none; */
+}
+
+.navMain ul li:hover .sub-Menu-1 ul{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -80px;
+    background-color: black;
+}
+
+.active{
+    font-weight:bold;
+}
+
+.navMain ul li:hover .sub-Menu-1 ul li{
+    display: block;
+    width:200px;
+    margin: 15px;
+    /* padding: 10px; */
+    border-bottom: 2px white dashed;
+   
+}
+.navMain ul li:hover .sub-Menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+.sub-Menu-1 ul li:hover {
+    background-color: white;
+    color: black;
+ }
+
+ .sub-Menu-1 ul li {
+    text-align: left;
+    background-color: black;
+ }
+
+/*
+.navMain ul li:hover .sub-Menu-1 ul {
+    display: inline-block;
+    margin: 10px;
+} */
