@@ -8,8 +8,15 @@
 }
 
 .navMain {
+    
     background-color: rgb(54, 54, 159);
-    width:100%;
+ 
+}
+
+.upperDivBar .navMain{
+    margin-left: 25%;
+    border-top-left-radius: 50px;
+    padding-left: 10px;
 }
 
 .navMain ul li {
@@ -22,7 +29,8 @@
 }
 
 .navMain ul{
-    text-align: center;
+    text-align: left;
+    
 }
 
 .active, .navMain ul li:hover{
@@ -71,8 +79,16 @@
     background-color: black;
  }
 
-/*
-.navMain ul li:hover .sub-Menu-1 ul {
-    display: inline-block;
-    margin: 10px;
-} */
+.upperDivBar{
+    position: absolute;
+    width: 100%;
+    border: 2px solid;
+    height: 100px;
+    background-color: red;
+}
+
+.navMain{
+    position:relative;
+    margin-top: 50px;
+    margin-left: 80vh;
+}
