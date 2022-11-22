@@ -50,7 +50,7 @@
     position: absolute;
     margin-top: 15px;
     margin-left: -80px;
-    background-color: black;
+    background-color: rgb(95, 91, 91);
 }
 
 .active{
@@ -60,7 +60,7 @@
 .navMain ul li:hover .sub-Menu-1 ul li{
     display: block;
     width:200px;
-    margin: 15px;
+    margin-left: 4px;
     /* padding: 10px; */
     border-bottom: 2px white dashed;
    
@@ -76,7 +76,7 @@
 
  .sub-Menu-1 ul li {
     text-align: left;
-    background-color: black;
+    background-color: rgb(88, 87, 87);
  }
 
 .upperDivBar{
