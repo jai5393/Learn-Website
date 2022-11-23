@@ -95,3 +95,43 @@
 
 /* From this sizing box html file code is placed */
 
+.boxOne {
+    border:2px solid black;
+    margin-top: 10px;
+}
+
+p{
+color:black;
+}
+
+.container{
+    background-color: rgb(214, 196, 163);
+    margin :auto;
+    padding : 10px;
+    border:2px solid rgb(234, 11, 11);
+    width:900px;
+}
+
+#fruits{
+    /* float:left; */
+    width:50%;
+}
+
+#computers{
+float: left;
+width:48%;
+
+}
+
+#glass{
+        float:right;
+        width: 48%;
+        background-color: rgb(186, 204, 216);
+}
+
+#boxi{
+    clear:both;
+    border:2px solid black;
+    margin-top:230px;
+    background-color: rgb(211, 190, 190);
+}
