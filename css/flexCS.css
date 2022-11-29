@@ -1,0 +1,21 @@
+container{
+   height:340px; 
+   width:100%;
+   border:2px solid black;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}   
+
+.box{
+    /* display: flex; */
+    height: 90px;
+    width: 90px;
+    border:2px solid green;
+    background-color: tomato;
+    margin: 10px;
+    padding:3px;
+}

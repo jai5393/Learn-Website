@@ -28,20 +28,30 @@
     cursor: pointer;
 }
 
-.navMain ul{
-    text-align: left;
-    
+
+.navMain ul li{
+                            
+  transition: 0.3s;
 }
 
 .active, .navMain ul li:hover{
+    
     padding:15px;
     background-color: bisque;
     color:black
 }
 
+/* .sub-Menu-1 ul li{
+    transition:0.3s;
+    
+    /* list-style: none; }
+    */
+
 
 .sub-Menu-1 ul {
+    
     display: none;
+    
     /* list-style: none; */
 }
 
